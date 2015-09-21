@@ -1,0 +1,31 @@
+<head>
+  <title>meteor-app</title>
+</head>
+
+<body>
+    <main>
+        <div id="commands">
+             <h1>Play songs through voice commands</h1>
+             <p>This demo uses speech recognition and the <a href="https://developer.spotify.com/web-api/">Spotify Web API</a> to play songs. Try it using some of the commands below. Remember to allow the use of the microphone.</p>
+            <p>For instance "Play Some Nights"</p>
+
+            <h2>Voice commands</h2>
+            <ul>
+                <li>Play {song name}</li>
+                <li>Play {song name} by {artist name}</li>
+            </ul>
+        </div>
+        <div id="conversation"></div>
+    </main>
+    <footer>This demo uses the Spotify Web API and the library <a href="https://github.com/TalAter/annyang">annyang</a> to make it easy to match recognised text with rules.</footer>
+</body>
+
+<template name="home">
+    <h2>Spotify API example</h2>
+
+    <!-- {{> loginButtons}} -->
+</template>
+
+<template name="redirect">
+<h5> Redirect route </h5>
+</template>
