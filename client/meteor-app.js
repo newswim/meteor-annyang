@@ -1,7 +1,5 @@
 if (Meteor.isClient) {
 
-    var annyang = Meteor.NPMRequire('annyang');
-
     (function () {
         var audio = new Audio();
 

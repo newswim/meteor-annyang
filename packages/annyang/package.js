@@ -2,7 +2,7 @@ Package.describe({
   name: 'newswim:annyang',
   version: '1.0.0',
   summary: 'A tiny javascript SpeechRecognition library that lets your users control your site with voice commands.',
-  git: 'https://github.com/newswim/meteor-annyang',
+  git: 'https://github.com/newswim/meteor-annyang/tree/master/packages/annyang',
   documentation: 'README.md'
 });
 
